@@ -4,5 +4,14 @@
   "main": "index.js",
   "repository": "https://github.com/demarcj/portfolio.git",
   "author": "DeMarc Johnson <demarcjohnson@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel src/index.html"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "parcel-plugin-svelte": "^4.0.4",
+    "svelte": "^3.12.1"
+  }
 }
