@@ -6,8 +6,12 @@
   "author": "DeMarc Johnson <demarcjohnson@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "parcel src/index.html"
+    "start": "parcel ./public/index.html",
+    "deploy": "rm -rf docs && parcel build public/index.html --public-url ./ -d ./docs/ --no-source-maps"
   },
+  "browserslist": [
+    "last 1 chrome versions"
+  ],
   "dependencies": {},
   "devDependencies": {
     "parcel-bundler": "^1.12.4",
