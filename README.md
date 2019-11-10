@@ -15,7 +15,7 @@ The site as you can is far from being done, but I'll have looking nice soon. It 
 https://demarcj.github.io/portfolio/
 
 ## Technologies being used in this project
-Svelte
-HTML
-CSS
-JavaScript
+* Svelte
+* HTML
+* CSS
+* JavaScript
