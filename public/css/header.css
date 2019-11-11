@@ -1,0 +1,13 @@
+.nav{
+  background:black
+}
+
+.nav_list{
+  display: inline-block;
+}
+
+.nav_links{
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}

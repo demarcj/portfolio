@@ -1,6 +1,12 @@
+<script>
+  import "../css/header.css";
+</script>
+
 <header>
-  <ul class="nav">
-    <li class="nav_first_level"><a href="./" class="nav_second_level_link">About</a></li>
-    <li class="nav_first_level"><a href="portfolio.html" class="nav_second_level_link">Portfolio</a></li>
-  </ul>
+  <nav class=".nav">
+    <ul class="nav">
+      <li class="nav_list"><a href="./" class="nav_links">About</a></li>
+      <li class="nav_list"><a href="portfolio.html" class="nav_links">Portfolio</a></li>
+    </ul>
+  </nav>
 </header>
