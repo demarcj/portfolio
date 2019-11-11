@@ -8,6 +8,7 @@ The site as you can is far from being done, but I'll have looking nice soon. It 
 
 - [x] Create a To-Do-List
 - [x] Setup the Svelte environment
+- [] Setup a router
 - [] Create list of the current projects that I'm working on want to show
 
 ## Where can I see the website 

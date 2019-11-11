@@ -1,3 +1,6 @@
+<script>
+  import "../css/footer.css";
+</script>
 
 <footer>
   <div class="footer_col">

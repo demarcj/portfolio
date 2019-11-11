@@ -1,13 +1,14 @@
 .nav{
-  background:black
+  background:var(--black);
 }
 
 .nav_list{
   display: inline-block;
+  font-size: 24px;
 }
 
 .nav_links{
-  text-decoration: none;
   color: white;
-  cursor: pointer;
+  padding: 10px;
+  display: block;
 }

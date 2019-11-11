@@ -1,4 +1,4 @@
-import App from './components/Portfolio.svelte';
+import App from './components/Index.svelte';
 
 const app = new App({
 	target: document.body
