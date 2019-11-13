@@ -1,6 +1,19 @@
-<script>
-  import "../css/header.css";
-</script>
+<style>
+  .nav{
+    background:var(--black);
+  }
+
+  .nav_list{
+    display: inline-block;
+    font-size: 24px;
+  }
+
+  .nav_links{
+    color: white;
+    padding: 10px;
+    display: block;
+  }
+</style>
 
 <header>
   <nav class=".nav">

@@ -12,7 +12,9 @@
   "browserslist": [
     "last 1 chrome versions"
   ],
-  "dependencies": {},
+  "dependencies": {
+    "moment": "^2.24.0"
+  },
   "devDependencies": {
     "parcel-bundler": "^1.12.4",
     "parcel-plugin-svelte": "^4.0.4",

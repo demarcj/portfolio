@@ -20,3 +20,4 @@ https://demarcj.github.io/portfolio/
 * HTML
 * CSS
 * JavaScript
+* SVG
