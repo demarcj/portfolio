@@ -6,17 +6,19 @@
 
 :root{
   --black: #212121;
-  --yellow: #d5bf48;
+  --green: #a7be38;
 }
 
 main{
-  background:var(--yellow);
+  background:var(--green);
   padding:30px 15px;
+  height: 90vh;
 }
 
 h1{
-  font-size: 32px;
+  font-size: 48px;
   margin-bottom: 15px;
+  text-align: center;
 }
 
 a{
@@ -24,6 +26,6 @@ a{
   color: white;
 }
 
-ul{
-  list-style: none;
+p{
+  font-size: 18px;
 }

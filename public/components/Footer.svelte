@@ -8,6 +8,7 @@ footer{
   background:var(--black);
   color:white;
   padding: 15px;
+
 }
 </style>
 

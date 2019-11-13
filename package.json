@@ -13,11 +13,14 @@
     "last 1 chrome versions"
   ],
   "dependencies": {
-    "moment": "^2.24.0"
+    "autoprefixer": "^9.7.1",
+    "moment": "^2.24.0",
+    "svelte-image": "^0.1.4"
   },
   "devDependencies": {
     "parcel-bundler": "^1.12.4",
     "parcel-plugin-svelte": "^4.0.4",
-    "svelte": "^3.12.1"
+    "svelte": "^3.12.1",
+    "svelte-image-encoder": "^1.2.5"
   }
 }
