@@ -35,7 +35,7 @@
 <main class="portfolio_main">
   <section>
     <h1>Portfolio</h1>
-    <img class="image_me" src="../public/images/DeMarc_Johnson.jpg" alt="An image of the creator of the page, DeMarc Johnson">
+    <img class="image_me" src="images/DeMarc_Johnson.jpg" alt="An image of the creator of the page, DeMarc Johnson">
     <p class="summary">When looking at these sites use the inspector or the view source to check the top of either layout.css file or the script.js to see my signutare</p>
   </section>
   <section>
