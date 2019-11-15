@@ -50,64 +50,64 @@
           <img class="site_img" src="images/avon.jpg" alt="An image of the Avon Park Site">
         </a>
         <a class="sites_link swiper-slide" href="https://www.villageofmatteson.org/">
-        <img class="site_img" src="images/matteson.jpg" alt="An image of the Avon Park Site">
           Matteson, IL
+        <img class="site_img" src="images/matteson.jpg" alt="An image of the Avon Park Site">
         </a>
         <a class="sites_link swiper-slide" href="https://www.uppermarlboromd.gov/">
-          <img class="site_img" src="images/marlboro.jpg" alt="An image of the Avon Park Site">
           Upper Marlboro, MD
+          <img class="site_img" src="images/marlboro.jpg" alt="An image of the Avon Park Site">
         </a>
         <a class="sites_link swiper-slide" href="https://www.co.pine.mn.us/">
-          <img class="site_img" src="images/pinecounty.jpg" alt="An image of the Avon Park Site">
           Pine County, MN
+          <img class="site_img" src="images/pinecounty.jpg" alt="An image of the Avon Park Site">
         </a>
         <a class="sites_link swiper-slide" href="https://www.franklin.mi.us/">
-          <img class="site_img" src="images/franklinmi.jpg" alt="An image of the Avon Park Site">
           Franklin, MI
+          <img class="site_img" src="images/franklinmi.jpg" alt="An image of the Avon Park Site">
         </a>
         <a class="sites_link swiper-slide" href="https://www.somersetmd.us/">
-          <img class="site_img" src="images/somerset.jpg" alt="An image of the Avon Park Site">
           Somerset County, MD
+          <img class="site_img" src="images/somerset.jpg" alt="An image of the Avon Park Site">
         </a>
         <a class="sites_link swiper-slide" href="http://www.ameliacova.com/">
-          <img class="site_img" src="images/amelia.jpg" alt="An image of the Avon Park Site">
           Amelia County, VA
+          <img class="site_img" src="images/amelia.jpg" alt="An image of the Avon Park Site">
         </a>
         <a class="sites_link swiper-slide" href="http://www.cartercountyok.us/">
-          <img class="site_img" src="images/carterok.jpg" alt="An image of the Avon Park Site">
           Carter County, OK
+          <img class="site_img" src="images/carterok.jpg" alt="An image of the Avon Park Site">
         </a>
         <a class="sites_link swiper-slide" href="http://www.blueashadvance.com/">
-          <img class="site_img" src="images/blueashoh.jpg" alt="An image of the Avon Park Site">
           Blue Ashedc OH
+          <img class="site_img" src="images/blueashoh.jpg" alt="An image of the Avon Park Site">
         </a>
         <a class="sites_link swiper-slide" href="http://www.milfordtownship.com/">
-          <img class="site_img" src="images/milfordmi.jpg" alt="An image of the Avon Park Site">
           Milford Township, MI
+          <img class="site_img" src="images/milfordmi.jpg" alt="An image of the Avon Park Site">
         </a>
         <a class="sites_link swiper-slide" href="https://www.cariboucountysheriff.com/">
-          <img class="site_img" src="images/cariboucounty.jpg" alt="An image of the Avon Park Site">
           Caribou County Sheriff
+          <img class="site_img" src="images/cariboucounty.jpg" alt="An image of the Avon Park Site">
         </a>
         <a class="sites_link swiper-slide" href="https://www.cityoflakeport.com/">
-          <img class="site_img" src="images/lakeport.jpg" alt="An image of the Avon Park Site">
           Lakeport, CA
+          <img class="site_img" src="images/lakeport.jpg" alt="An image of the Avon Park Site">
         </a>
         <a class="sites_link swiper-slide" href="https://www.allendalecounty.com/">
-          <img class="site_img" src="images/allendale.jpg" alt="An image of the Avon Park Site">
           Allendale County, SC
+          <img class="site_img" src="images/allendale.jpg" alt="An image of the Avon Park Site">
         </a>
         <a class="sites_link swiper-slide" href="https://www.cityofelcampo.org/">
-          <img class="site_img" src="images/elcampo.jpg" alt="An image of the Avon Park Site">
           El Campo, TX
+          <img class="site_img" src="images/elcampo.jpg" alt="An image of the Avon Park Site">
         </a>
         <a class="sites_link swiper-slide" href="https://www.bellavistaar.gov/">
-          <img class="site_img" src="images/bellavista.jpg" alt="An image of the Avon Park Site">
           Bella Vista, AR
+          <img class="site_img" src="images/bellavista.jpg" alt="An image of the Avon Park Site">
         </a>
         <a class="sites_link swiper-slide" href="https://oglecounty.org/">
-          <img class="site_img" src="images/oglecounty.jpg" alt="An image of the Avon Park Site">
           Ogle County, IL
+          <img class="site_img" src="images/oglecounty.jpg" alt="An image of the Avon Park Site">
         </a>
       </div>
       <div class="swiper-pagination"></div>
