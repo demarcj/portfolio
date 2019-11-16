@@ -16,7 +16,7 @@
 </style>
 
 <header>
-  <nav class=".nav">
+  <nav>
     <ul class="nav">
       <!-- <li class="nav_list"><a href="./" class="nav_links">About</a></li> -->
       <li class="nav_list"><a href="./" class="nav_links">Portfolio</a></li>
