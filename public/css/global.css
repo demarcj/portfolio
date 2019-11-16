@@ -9,10 +9,15 @@
   --green: #a7be38;
 }
 
+body{
+  font-family: helvetica, serif;
+  color: var(--black);
+}
+
 main{
   background:var(--green);
   padding:30px 15px;
-  height: 90vh;
+  min-height: 90vh;
 }
 
 h1{
