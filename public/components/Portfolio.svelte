@@ -28,6 +28,8 @@
   }
   .site_img{
     width:100%;
+    min-height:300px;
+    max-height: 350px;
   }
   .site_name{
     background: white;

@@ -2,22 +2,29 @@
   margin:0;
   padding: 0;
   box-sizing: border-box;
+  transition: all ease-in-out .2s;
 }
 
 :root{
   --black: #212121;
   --green: #a7be38;
+  --red: #ae4226;
+}
+
+html, body{
+  height: 100%;
 }
 
 body{
   font-family: helvetica, serif;
+  display: flex;
+  flex-direction: column;
   color: var(--black);
 }
 
 main{
   background:var(--green);
   padding:30px 15px;
-  min-height: 90vh;
 }
 
 h1{
