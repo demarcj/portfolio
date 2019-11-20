@@ -2,6 +2,26 @@
 <script>
   import Header from './Header.svelte';
   import Footer from './Footer.svelte';
+  export let img;
+  const cityNames = [
+    {name: `Waxahachie, TX`, site: `http://www.waxahachie.com/`, image: img.waxahachie},
+    {name: `Avon Park, FL`, site: `http://avonpark.cc/`, image: img.avon},
+    {name: `Matteson, IL`, site: `https://www.villageofmatteson.org/`, image: img.matteson},
+    {name: `Upper Marlboro, MD`, site: `https://www.uppermarlboromd.gov/`, image: img.marlboro},
+    {name: `Pine County, MN`, site: `https://www.co.pine.mn.us/`, image: img.pinecounty},
+    {name: `Franklin, MI`, site: `https://www.franklin.mi.us/`, image: img.franklinmi},
+    {name: `Somerset County, MD`, site: `https://www.somersetmd.us/`, image: img.somerset},
+    {name: `Amelia County, VA`, site: `http://www.ameliacova.com/`, image: img.amelia},
+    {name: `Carter County, OK`, site: `http://www.cartercountyok.us/`, image: img.carterok},
+    {name: `Blue Ashedc OH`, site: `http://www.blueashadvance.com/`, image: img.blueashoh},
+    {name: `Milford Township, MI`, site: `http://www.milfordtownship.com/`, image: img.milfordmi},
+    {name: `Caribou County Sheriff`, site: `https://www.cariboucountysheriff.com/`, image: img.cariboucounty},
+    {name: `Lakeport, CA`, site: `https://www.cityoflakeport.com/`, image: img.lakeport},
+    {name: `Allendale County, SC`, site: `https://www.allendalecounty.com/`, image: img.allendale},
+    {name: `El Campo, TX`, site: `https://www.cityofelcampo.org/`, image: img.elcampo},
+    {name: `Bella Vista, AR`, site: `https://www.bellavistaar.gov/`, image: img.bellavista},
+    {name: `Ogle County, IL`, site: `https://oglecounty.org/`, image: img.oglecounty},
+  ];
 </script>
 
 <style>
@@ -46,80 +66,18 @@
 <main class="portfolio_main">
   <section class="test">
     <h1>Portfolio</h1>
-    <img class="image_me" src="https://raw.githubusercontent.com/demarcj/portfolio/master/images/DeMarc_Johnson.jpg" alt="An image of the creator of the page, DeMarc Johnson">
+    <img class="image_me" src="{img.DeMarc_Johnson}" alt="An image of the creator of this page, DeMarc Johnson">
     <p class="summary">When looking at these sites use the inspector or the view source to check the top of either layout.css file or the script.js to see my signutare</p>
   </section>
   <section>
     <div class="swiper-container">
       <div class="site_list swiper-wrapper">
-        <a class="sites_link swiper-slide" href="http://www.waxahachie.com/">
-          <p class="site_name">Waxahachie, TX</p>
-          <img class="site_img" src="https://raw.githubusercontent.com/demarcj/portfolio/master/images/waxahachie.jpg" alt="An image of the Waxachie Texas Site">
+        {#each cityNames as cityName}
+        <a class="sites_link swiper-slide" href="{cityName.site}">
+          <p class="site_name">{cityName.name}</p>
+          <img class="site_img" src="{cityName.image}" alt="An image of the {cityName.name} Site">
         </a> 
-        <a class="sites_link swiper-slide" href="http://avonpark.cc/">
-          <p class="site_name">Avon Park, FL</p>
-          <img class="site_img" src="https://raw.githubusercontent.com/demarcj/portfolio/master/images/avon.jpg" alt="An image of the Avon Park Site">
-        </a>
-        <a class="sites_link swiper-slide" href="https://www.villageofmatteson.org/">
-          <p class="site_name">Matteson, IL</p>
-        <img class="site_img" src="https://raw.githubusercontent.com/demarcj/portfolio/master/images/matteson.jpg" alt="An image of the Avon Park Site">
-        </a>
-        <a class="sites_link swiper-slide" href="https://www.uppermarlboromd.gov/">
-          <p class="site_name">Upper Marlboro, MD</p>
-          <img class="site_img" src="https://raw.githubusercontent.com/demarcj/portfolio/master/images/marlboro.jpg" alt="An image of the Avon Park Site">
-        </a>
-        <a class="sites_link swiper-slide" href="https://www.co.pine.mn.us/">
-          <p class="site_name">Pine County, MN</p>
-          <img class="site_img" src="https://raw.githubusercontent.com/demarcj/portfolio/master/images/pinecounty.jpg" alt="An image of the Avon Park Site">
-        </a>
-        <a class="sites_link swiper-slide" href="https://www.franklin.mi.us/">
-          <p class="site_name">Franklin, MI</p>
-          <img class="site_img" src="https://raw.githubusercontent.com/demarcj/portfolio/master/images/franklinmi.jpg" alt="An image of the Avon Park Site">
-        </a>
-        <a class="sites_link swiper-slide" href="https://www.somersetmd.us/">
-          <p class="site_name">Somerset County, MD</p>
-          <img class="site_img" src="https://raw.githubusercontent.com/demarcj/portfolio/master/images/somerset.jpg" alt="An image of the Avon Park Site">
-        </a>
-        <a class="sites_link swiper-slide" href="http://www.ameliacova.com/">
-          <p class="site_name">Amelia County, VA</p>
-          <img class="site_img" src="https://raw.githubusercontent.com/demarcj/portfolio/master/images/amelia.jpg" alt="An image of the Avon Park Site">
-        </a>
-        <a class="sites_link swiper-slide" href="http://www.cartercountyok.us/">
-          <p class="site_name">Carter County, OK</p>
-          <img class="site_img" src="https://raw.githubusercontent.com/demarcj/portfolio/master/images/carterok.jpg" alt="An image of the Avon Park Site">
-        </a>
-        <a class="sites_link swiper-slide" href="http://www.blueashadvance.com/">
-          <p class="site_name">Blue Ashedc OH</p>
-          <img class="site_img" src="https://raw.githubusercontent.com/demarcj/portfolio/master/images/blueashoh.jpg" alt="An image of the Avon Park Site">
-        </a>
-        <a class="sites_link swiper-slide" href="http://www.milfordtownship.com/">
-          <p class="site_name">Milford Township, MI</p>
-          <img class="site_img" src="https://raw.githubusercontent.com/demarcj/portfolio/master/images/milfordmi.jpg" alt="An image of the Avon Park Site">
-        </a>
-        <a class="sites_link swiper-slide" href="https://www.cariboucountysheriff.com/">
-          <p class="site_name">Caribou County Sheriff</p>
-          <img class="site_img" src="https://raw.githubusercontent.com/demarcj/portfolio/master/images/cariboucounty.jpg" alt="An image of the Avon Park Site">
-        </a>
-        <a class="sites_link swiper-slide" href="https://www.cityoflakeport.com/">
-          <p class="site_name">Lakeport, CA</p>
-          <img class="site_img" src="https://raw.githubusercontent.com/demarcj/portfolio/master/images/lakeport.jpg" alt="An image of the Avon Park Site">
-        </a>
-        <a class="sites_link swiper-slide" href="https://www.allendalecounty.com/">
-          <p class="site_name">Allendale County, SC</p>
-          <img class="site_img" src="https://raw.githubusercontent.com/demarcj/portfolio/master/images/allendale.jpg " alt="An image of the Avon Park Site">
-        </a>
-        <a class="sites_link swiper-slide" href="https://www.cityofelcampo.org/">
-          <p class="site_name">El Campo, TX</p>
-          <img class="site_img" src="https://raw.githubusercontent.com/demarcj/portfolio/master/images/elcampo.jpg" alt="An image of the Avon Park Site">
-        </a>
-        <a class="sites_link swiper-slide" href="https://www.bellavistaar.gov/">
-          <p class="site_name">Bella Vista, AR</p>
-          <img class="site_img" src="https://raw.githubusercontent.com/demarcj/portfolio/master/images/bellavista.jpg" alt="An image of the Avon Park Site">
-        </a>
-        <a class="sites_link swiper-slide" href="https://oglecounty.org/">
-          <p class="site_name">Ogle County, IL</p>
-          <img class="site_img" src="https://raw.githubusercontent.com/demarcj/portfolio/master/images/oglecounty.jpg" alt="An image of the Avon Park Site">
-        </a>
+        {/each}
       </div>
       <div class="swiper-pagination"></div>
     </div>
