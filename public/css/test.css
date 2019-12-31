@@ -1,0 +1,9 @@
+h1{
+  font-size: 4rem;
+}
+
+@media  (width < 991px) {
+  h1{
+    font-size: 2rem;
+  }
+}

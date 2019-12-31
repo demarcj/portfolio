@@ -42,7 +42,7 @@
     margin-bottom: 50px
   }
   .sites_link{
-    color: #ae4226;
+    color: white;
     font-size: 18px;
     text-align: center;
   }
@@ -52,7 +52,7 @@
     max-height: 350px;
   }
   .site_name{
-    background: white;
+    background: var(--black);
   }
 
   @media screen and (max-width: 467px) { 
