@@ -2,7 +2,7 @@
   header{
     background:var(--black);
     font-size: 0;
-    padding:0 15px;
+    padding:15px 30px;
   }
 
   nav{
@@ -40,7 +40,7 @@
 
   .svg{
     width: 30px;
-    margin: auto 0 auto 10px;
+    margin: auto 0 auto 15px;
     height: 100%;
   }
 </style>
@@ -49,8 +49,7 @@
   <nav>
     <ul class="nav">
       <!-- <li class="nav_list"><a href="./" class="nav_links">About</a></li> -->
-      <li class="nav_list"><a href="./" class="nav_links links">Portfolio</a></li>
-      <li class="nav_list"><a href="https://drive.google.com/file/d/1btUgAYGEVA6exLQtksVknF7sIC7qotIH/view?usp=sharing" class="nav_links links">Resume</a></li>
+      <!-- <li class="nav_list"><a href="./" class="nav_links links">Portfolio</a></li> -->
     </ul>
   </nav>
   <div class="svg-container">
